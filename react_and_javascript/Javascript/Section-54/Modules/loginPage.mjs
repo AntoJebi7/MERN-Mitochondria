@@ -13,4 +13,4 @@ let loginData = {
 
 export function loginInfo() {
     console.log( loginData  );  
-}
+} 

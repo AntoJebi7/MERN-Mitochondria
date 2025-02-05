@@ -31,7 +31,7 @@ function selectChild(){
     console.log( getElementByClass.lastElementChild );
     
 }
-
+ 
 //Siblings
 
 function selectSiblings(){

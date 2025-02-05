@@ -12,7 +12,7 @@
 // // hobbies[2] = "HandBall"
 
 // console.log( newArr);
-// console.log( newArr1);
+// console.log( newArr1); 
 
 let empDetail = {
     empId : "IQ123",

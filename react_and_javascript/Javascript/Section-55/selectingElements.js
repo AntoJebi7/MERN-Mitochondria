@@ -6,11 +6,9 @@ let heading = document.getElementsByTagName( "h1" )
 console.log( heading );
 
 let para1 = document.getElementsByClassName("para1")
-
 console.log( para1 );
 
-let uniqPara = document.getElementById("uniq-para")
-
+let uniqPara = document.getElementById("uniq-para").innerText="changed title";
 console.log( uniqPara );
 
 let nameAttri = document.getElementsByName("input-1")
@@ -29,7 +27,7 @@ console.log( multiElements );
 
 let newElement = document.createElement( "h2" )
 
-newElement.innerText = "Manipulating Phase"
+newElement.innerText = "new element "
 
 console.log( newElement );
 

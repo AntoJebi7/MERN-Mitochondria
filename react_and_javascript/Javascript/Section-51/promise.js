@@ -25,7 +25,8 @@ let newPromise = new Promise( (resolve, reject)=>{
 // } )
 
 
-// function fetchProfile( sucesscallBack, errorCallback ){
+// function 
+// fetchProfile( sucesscallBack, errorCallback ){
 //     let dataRecieved = true;
 
 //     if(dataRecieved){

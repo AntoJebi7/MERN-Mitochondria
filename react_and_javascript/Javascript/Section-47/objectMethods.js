@@ -1,9 +1,9 @@
-// let person = {
-//     pName : "Johny",
-//     age : 30
-// }
+ let person = {
+    pName : "Johny",
+     age : 30
+ }
 
-// console.log( person );
+console.log( person );
 
 // let arr = [1,2,3,4]
 

@@ -1,7 +1,9 @@
 .calculator{
-    width: 30vw;
+    background-color: black;
+    width: 40vw;
     height: 70vh;
-    border: 1px solid rgb(216, 210, 210);
+    border: 10px solid rgb(45, 37, 37);
+    border-radius: 20px;
     margin: auto;
     position: relative;
     top: 100px;
