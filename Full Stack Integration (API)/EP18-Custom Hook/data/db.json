@@ -244,10 +244,5 @@
     "fakeUser" : {
         "id" : 1,
         "uName" : "Kesavan"
-    },
-    "anto-backdoor":{
-      "id": 2,
-      "uName": "Antonio"
     }
 }
-

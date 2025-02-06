@@ -28,7 +28,7 @@ const ProductList = () => {
   //   }
 
   return (
-    <div> 
+    <div>
       <h1> Product List </h1>
       <section className="products">
         {products.map((product) => (
