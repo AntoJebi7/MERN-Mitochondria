@@ -20,12 +20,13 @@ function App(props) {
       <label htmlFor="user">UserName:</label>
       <input id="user" type="text"/>
       <p> { author } </p>
-      {
+      { 
         isLogged && <p> Welcome to Our Website </p>
       }
       {/* <button onClick={newFun} ></button> */}
     </Fragment>,
     <>
+    
       <h1> Next Episode - Component </h1>
     </>
   );

@@ -17,7 +17,7 @@ const ProductItem = ( {product} ) => {
             deepDescription = { product.description }
          />
     </div>
-  )
+  ) 
 }
 
 export default ProductItem
