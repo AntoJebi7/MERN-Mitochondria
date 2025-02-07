@@ -67,7 +67,16 @@ background-color: #1976d2;
     outline: none;
     padding-right: 10px;
 }
-
+@media(max-width:400px){
+    .calculator-layout{
+        width: 100vw;
+        height: 60vh;
+    }
+    .btn{
+        width: 23%;
+        height: 4rem;
+    }
+}
 @media(max-width:600px){
     .calculator-layout{
         width: 90vw;
