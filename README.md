@@ -21,5 +21,5 @@ MERN-Mitochondria is a blazing-fast, feature-rich full-stack web resource using 
 
 Clone the repository:  
 ```bash
-git clone https://github.com/yourusername/mern-mitochondria.git
-cd mern-mitochondria
+git clone https://github.com/AntoJebi7/MERN-Mitochondria.git
+cd MERN-Mitochondria
