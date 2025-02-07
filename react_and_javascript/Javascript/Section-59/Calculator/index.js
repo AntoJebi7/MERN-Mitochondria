@@ -1,5 +1,5 @@
 let input = document.querySelector("input")
-
+ 
 function addValue(elementVal){
     input.value += elementVal
 }
