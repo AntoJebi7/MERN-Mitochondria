@@ -1,7 +1,8 @@
 # ⚡ MERN-Mitochondria: The Resource Powerhouse
 (will update everyday !)
 MERN-Mitochondria is a blazing-fast, feature-rich full-stack web resource using **MongoDB, Express.js, React.js, and Node.js**. Just like the **mitochondria powers cells**, this app fuels your development with a robust, scalable, and efficient foundation.  
-
+calcify - calculator app - https://calcify-pro-calculator.netlify.app/
+cloud pulse - weather app - https://cloud-pulse.netlify.app/
 ## 🏗 Tech Stack  
 - **Frontend:** React, Redux Toolkit, TailwindCSS  
 - **Backend:** Node.js, Express.js, JWT Authentication  
