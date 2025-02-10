@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>client side scripting</title>
+  </head>
+  <body>
+    <h1>Im gonna make you dynamic</h1>
+    <button onclick="setdyn()">click me</button>
+    <span></span>
+
+    <script>
+      function createMultiplier(multiplier) {
+        return function (num) {
+          return num * multiplier;
+        };
+      }
+
+      const double = createMultiplier(2); // Function that multiplies by 2
+      const triple = createMultiplier(3); // Function that multiplies by 3
+
+      console.log(double(5)); // 10
+      console.log(triple(5)); // 15
+    </script>
+
+    <!-- <script >
+        // alert("hii")
+        // setTimeout( ()=>{
+        //     document.querySelector( "h1" ).innerHTML = "IM changed"
+        // }, 4000 )
+        // console.log( 100 )
+        // console.log( "Javascript" )
+        // document.write(  "Javascript INTRO" )
+
+     </script> -->
+  </body>
+</html>
