@@ -1,0 +1,81 @@
+button{
+    position: relative;
+    margin: 0;
+    top:50vh ;
+    left: 40vh;
+    background-color: rgb(239, 17, 54);
+    border: none;
+    padding: 20px;
+    color: white;
+    font-size:40px;
+    border-radius: 30px;
+
+
+    transition: transform 3000ms ease;
+    animation: updown 4s ease;
+    animation-iteration-count: infinite;
+
+}
+img{
+    position: relative;
+    margin: 0;
+    left: 5vh;
+    border: none;
+    padding: 20px;
+    color: white;
+    font-size:40px;
+    border-radius: 30px;
+
+
+    transition: transform 3000ms ease;
+    animation: rotate 0.01ms ease;
+    animation-iteration-count: infinite;
+
+}
+div{
+    position: relative;
+    margin: 0;
+    left: 10vh;
+    border: none;
+    padding: 20px;
+    color: white;
+    font-size:40px;
+    border-radius: 30px;
+    background-color: rgb(50, 210, 96);
+    display: flex;
+    background-color: bisque;
+}
+body{
+    background-color: rgb(50, 210, 96);
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes updown{
+   
+
+    0%,10%,50%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-200px) rotate(360deg);
+        background-color: blue;
+    }
+    40%{
+        transform: translateY(-200px) rotate(360deg);
+        background-color: blueviolet;
+    }
+    60%{
+        transform: translateY(-200px) rotate(360deg);
+        background-color: aquamarine;
+    }
+    80%{
+        transform: translateY(-200px) rotate(360deg);
+        background-color: chocolate;
+    }
+}
