@@ -1,5 +1,32 @@
 //Logical Operator
 
+
+var name = "anto";
+let num = "10"
+console.log(typeof(num));
+console.log(Number(num) + String(45))
+console.log(Boolean([1]))
+
+
+let arr = [1,2,45,67];
+for(let j in arr){
+    console.log(arr[j]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Logical AND ( && )
 
 /* cond1    cond2  Result
@@ -45,5 +72,5 @@
 
 //Logical Not ( ! )
 
-console.log( !(10 > 4) );
-console.log( !false );
+// console.log( !(10 > 4) );
+// console.log( !false );
