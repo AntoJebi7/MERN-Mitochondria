@@ -52,3 +52,12 @@ function subtract(num1, num2) {
 add( subtract,20,40  )
 
 
+function greet(name){
+    return function(str){
+        return name + str;
+    }
+}
+
+let getgreet = greet("hello ");
+
+console.log(getgreet("anto"));
