@@ -28,8 +28,8 @@ console.log( team2 );
 //Rest Parameter or Rest Operator
 
 function restParams(a,b,...arr) {
-    console.log(a,b, arr );
-}
+    console.log(a,b, arr[0] );
+} 
 restParams( 1,2,3,4,5  )
 
 /* Stack Memory

@@ -1,7 +1,7 @@
 // let arr = [100,200,300,400]
 
 //Pop Method
-
+ 
 // let poppedVal = arr.pop()
 
 // console.log(poppedVal, arr );
