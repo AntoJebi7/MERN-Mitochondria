@@ -1,6 +1,6 @@
 let arr = [10,20,30,20,40,50,10]
 
-// let newIndex = arr.indexOf( 10, 2 )
+// let newIndex = arr.indexOf( 10, 2 )  //element,index
 // let newIndex = arr.indexOf( 20, -4 )
 // let newIndex = arr.indexOf( 20,0)
 

@@ -8,7 +8,7 @@ let flavors = [ "vannila", "butterscortch", "lavendar", "chocolate"]
 // console.log( flavors[1] );
 // console.log( flavors[2] );
 console.log(  flavors.length-1 );
-
+console.log(  flavors.length );
 console.log( flavors[ flavors.length-1  ] );
 
 let sample = [  1, "two", true, null, undefined, { id:1 } ]

@@ -19,7 +19,6 @@
 // let slicedVal = newArr.slice()
 
 // newArr[0] = 101
-
 // let slicedVal1 = newArr.slice(1)
 // let slicedVal2 = newArr.slice(1, 4)
 // let slicedVal3 = newArr.slice( 0,3)

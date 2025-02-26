@@ -31,8 +31,8 @@ let descendingSort = newArr.sort( (a,b)=>{ return b-a } )
 
 console.log( descendingSort );
 
-//Some & Every
-
+//Some(some can true) & Every(every element should true)
+// like logical OR and AND
 let arr1 = [10,2,30,40,5]
 
 let value = arr1.some( (ele, ind, arr)=>{

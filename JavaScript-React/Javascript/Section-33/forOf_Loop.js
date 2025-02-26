@@ -9,9 +9,11 @@
 // for( let char of str  ){
 //     console.log( char );
 // }
-
+function add(){
+    return 10+20;
+}
 function* genFunction(){
-    yield "One"
+    yield add()
     yield "Two"
     yield "Three"
 }

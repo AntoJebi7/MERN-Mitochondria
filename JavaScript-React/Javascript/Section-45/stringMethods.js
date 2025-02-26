@@ -5,11 +5,13 @@
 // console.log( str.charAt( str.length-1 ) );
 
 
+
 // charCodeAt
 
 // let str1 = "JAvscript"
 
 // console.log( str1.charCodeAt(5) );
+// ASCII
 
 // concat
 
@@ -69,7 +71,7 @@
 // console.log( newStr1.substring( 8,0  ) );
 
 // Split
-
+// string to array 
 // let words = "My Name is Iron-Man"
 
 // console.log( words.split(" " ) );
