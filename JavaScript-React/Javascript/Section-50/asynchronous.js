@@ -10,7 +10,7 @@ function f3(){
 
 f1();
 f2();
-// setTimeout( f2, 2000 )
+// setTimeout( f2, 2000 ) 
 f3();
 
 /*

@@ -8,7 +8,6 @@ let newPromise = new Promise( (resolve, reject)=>{
     else{
         reject( "Data Not Recieved" )
     }
-
 } )
 // newPromise.then( ( message )=>{
 //     console.log( "Succes: " + message  );
