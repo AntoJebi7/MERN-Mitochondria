@@ -21,7 +21,7 @@
 let obj1 = {
     name : "Kesavan"
 }
-
+// heap memory allocation 
 let arr1 = [ 1,2,3 ]
 
 

@@ -2,7 +2,7 @@ fetch("https://fakestoreapi.com/users/abcd")
   .then((response) => {
     if( !response.ok ){
         throw new Error( "Data Not Found" )
-    }
+    } 
     return response.json();
   })
   .then((data) => {
@@ -29,8 +29,6 @@ async function fetchData(){
     }
     catch(error){
         console.log( error.message );
-        
     }
-
 }
 fetchData()

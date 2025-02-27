@@ -1,5 +1,5 @@
 let newPromise = new Promise( (fullfilled, failure)=>{
-    let dataRecieved = false;
+    let dataRecieved = true;
     if(dataRecieved){
         fullfilled("Data Fetched Successfully")
     }
@@ -8,7 +8,7 @@ let newPromise = new Promise( (fullfilled, failure)=>{
         throw new Error( "Search Proper Data" )
     }
 }  )
-
+ 
 // newPromise.then( message => console.log( message ))
 
 async function executePromise(){
