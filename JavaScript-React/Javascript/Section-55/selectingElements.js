@@ -1,5 +1,5 @@
 // console.log( document.head  );
-
+// console.log({document});
 
 let heading = document.getElementsByTagName( "h1" )
 
