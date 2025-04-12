@@ -1,18 +1,17 @@
 {
-  "name": "javascript-essentials",
+  "name": "custom_middlewares",
   "version": "1.0.0",
-  "description": "react series",
   "main": "index.js",
   "type": "module",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "morgan": "^1.10.0"
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
   }
 }
